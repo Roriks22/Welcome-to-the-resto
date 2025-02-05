@@ -25,6 +25,12 @@ $color1: rgb(166, 114, 69);
     align-items: center;
 }
 
+@mixin alignChildren($space) {
+    display: flex;
+    align-items: center;
+    justify-content: $space;
+}
+
 * {
     margin: 0;
     padding: 0;
