@@ -125,4 +125,48 @@ header .header-text div h6 {
   font-style: italic;
   letter-spacing: 6px;
   font-weight: 100;
+}
+
+.section-1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: #eee;
+}
+.section-1 .intro-text {
+  border: 2px dotted rgb(166, 114, 69);
+  margin: 12px;
+}
+.section-1 .intro-text h2 {
+  padding-top: 30px;
+  font-family: Allura;
+  color: rgb(166, 114, 69);
+  font-size: 2rem;
+}
+.section-1 .intro-text h3 {
+  text-transform: uppercase;
+  font-family: Poppins, serif;
+  margin-top: -12px;
+}
+.section-1 .intro-text img {
+  padding: 20px;
+}
+.section-1 .intro-text p {
+  margin: 0 20px;
+}
+.section-1 .intro-text img:nth-of-type(2) {
+  width: 110px;
+  border-radius: 150px;
+}
+.section-1 .intro-text h4 {
+  font-family: Poppins, serif;
+  font-weight: 100;
+}
+.section-1 .intro-text h5 {
+  color: rgb(182, 182, 182);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+.section-1 .intro-pic {
+  background: url(../img/store-01.jpg) center/cover;
 }/*# sourceMappingURL=index.css.map */

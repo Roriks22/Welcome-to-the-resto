@@ -1,0 +1,47 @@
+.section-1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: $white;
+
+    .intro-text {
+        border:  2px dotted $color1;
+        margin: 12px;
+
+        h2 {
+            padding-top: 30px;
+            font-family: Allura;
+            color: $color1;
+            font-size: 2rem;
+        }
+        h3 {
+            text-transform: uppercase;
+            font-family: Poppins, serif;
+            margin-top: -12px;
+            
+        }
+        img {
+            padding: 20px;
+        }
+        p {
+            margin: 0 20px;
+            
+        }
+        img:nth-of-type(2) {
+            width: 110px;
+            border-radius: 150px;
+        }
+        h4 {
+            font-family: Poppins, serif;
+            font-weight: 100;
+        }
+        h5 {
+            color: $grey;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            padding-bottom: 40px;
+        }
+    }
+    .intro-pic {
+        background: url(../img/store-01.jpg) center / cover;
+    }
+}
