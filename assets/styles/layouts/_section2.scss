@@ -1,0 +1,24 @@
+.section-2 {
+    h2 {
+        font-family: Allura;
+        color: $color1;
+        font-size: 2rem;
+        margin-top: 60px;
+    }
+    img:nth-child(2){
+        padding-top: 20px;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        width: 50%;
+        margin: 30px auto;
+
+        li {
+            color: $white;
+            border-bottom: 1px solid $grey;
+            padding-bottom: 8px;
+        }
+    }
+}

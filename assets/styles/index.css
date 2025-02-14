@@ -164,9 +164,37 @@ header .header-text div h6 {
 .section-1 .intro-text h5 {
   color: rgb(182, 182, 182);
   font-size: 0.7rem;
+  font-weight: 100;
   text-transform: uppercase;
   padding-bottom: 40px;
 }
 .section-1 .intro-pic {
   background: url(../img/store-01.jpg) center/cover;
+}
+
+.section-2 h2 {
+  font-family: Allura;
+  color: rgb(166, 114, 69);
+  font-size: 2rem;
+  margin-top: 60px;
+}
+.section-2 img:nth-child(2) {
+  padding-top: 20px;
+}
+.section-2 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+  margin: 30px auto;
+}
+.section-2 ul li {
+  color: #eee;
+  border-bottom: 1px solid rgb(182, 182, 182);
+  padding-bottom: 8px;
 }/*# sourceMappingURL=index.css.map */
