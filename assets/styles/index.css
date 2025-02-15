@@ -275,4 +275,110 @@ header .header-text div h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.section-3 {
+  padding: 100px;
+}
+.section-3 .form-content {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.section-3 .form-content .hours {
+  background: black;
+}
+.section-3 .form-content .hours .hours-content {
+  border: 1px dashed rgb(182, 182, 182);
+  margin: 25px 20px;
+}
+.section-3 .form-content .hours .hours-content h3 {
+  font-family: Allura, cursive;
+  color: rgb(166, 114, 69);
+  font-size: 2.5rem;
+  font-weight: 100;
+  padding-top: 20px;
+}
+.section-3 .form-content .hours .hours-content h4 {
+  color: #eee;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-top: -10px;
+}
+.section-3 .form-content .hours .hours-content img {
+  margin: 20px 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section-3 .form-content .hours .hours-content h5 {
+  color: rgb(166, 114, 69);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin: 15px;
+  font-weight: 500;
+}
+.section-3 .form-content .hours .hours-content p {
+  color: #eee;
+  font-size: 0.8rem;
+}
+.section-3 .form-content .hours .hours-content h5:nth-of-type(2) {
+  margin-top: 40px;
+}
+.section-3 .form-content .hours .hours-content h5:nth-of-type(3) {
+  margin: 40px 0 30px 0;
+}
+.section-3 .form-content .form-infos {
+  background: #eee;
+}
+.section-3 .form-content .form-infos .form-infos-container {
+  margin: 80px 0;
+}
+.section-3 .form-content .form-infos .form-infos-container h2 {
+  font-family: Allura, cursive;
+  color: rgb(166, 114, 69);
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+.section-3 .form-content .form-infos .form-infos-container h3 {
+  text-transform: uppercase;
+  font-family: Poppins, serif;
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin-top: -15px;
+}
+.section-3 .form-content .form-infos .form-infos-container img {
+  margin-top: 20px;
+}
+.section-3 .form-content .form-infos .form-inputs {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 1fr 1fr;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.section-3 .form-content .form-infos .form-inputs input, .section-3 .form-content .form-infos .form-inputs select {
+  background: transparent;
+  border: 1px solid transparent;
+  border-bottom: 1px solid rgb(182, 182, 182);
+  padding-bottom: 10px;
+  margin: 0 10px 20px 10px;
+}
+.section-3 .form-content .form-infos .form-inputs select {
+  background: transparent;
+  border: 1px solid transparent;
+  border-bottom: 1px solid rgb(182, 182, 182);
+}
+.section-3 .form-content .form-infos button {
+  background: rgba(0, 0, 0, 0.833);
+  color: #eee;
+  border-radius: 150px;
+  height: 45px;
+  width: 180px;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: Poppins, serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin: 0 auto;
 }/*# sourceMappingURL=index.css.map */
