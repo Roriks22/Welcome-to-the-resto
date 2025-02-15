@@ -1,0 +1,223 @@
+.section-4 {
+    .events-container {
+        h2 {
+            font-family: Allura, cursive;
+            color: $color1;
+            font-size: 2.5rem;
+        }
+        h4 {
+            text-transform: uppercase;
+            color: $white;
+            font-family: Poppins, serif;
+            font-size: 1.5rem;
+            margin-top: -10px;
+        }
+        img {
+            margin: 30px;
+            object-fit: cover;
+        }
+        .event-grid {
+            display: grid;
+            grid-template-columns: 60% 40%;
+            grid-template-rows: 1fr 1fr;
+            max-width: 1000px;
+            margin: 0 auto;
+            gap: 20px;
+            grid-template-areas: 
+            "evl1 ev"
+            "evl2 ev";
+
+            .event-1 {
+                background: $white;
+                display: grid;
+                grid-template-columns: 30% 70%;
+                grid-area: evl1;
+                height: 180px;
+
+                .date {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: url(../img/event-01.jpg) center / cover;
+                    width: 200px;
+
+                    .date-content {
+                        background: $black;
+                        color: $white;
+                        width: 50%;
+                        height: 80px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        h6 {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+                .adress {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    text-align: left;
+                    margin-left: 40px;
+                    margin-bottom: 20px;
+
+                    h3 {
+                        font-weight: 200;
+                        margin-left: 8px;
+                    }
+                    p {
+                        color: $grey;
+                        font-size: 0.9rem;
+                        letter-spacing: 1px;
+                        font-weight: 100;
+                        display: flex;
+                        align-items: center;
+
+                        i {
+                            font-size: 0.7rem;
+                            padding: 0 5px 0 0;
+                        }
+                        i:nth-of-type(2) {
+                            margin-left: 10px;
+                         }
+                    }
+                    h5 {
+                        text-transform: uppercase;
+                        font-size: 0.9rem;
+                        color: gray;
+                        font-weight: 100;
+                    }
+                }
+            }
+            .event-2 {
+                background: $white;
+                display: grid;
+                grid-template-columns: 30% 70%;
+                grid-area: evl2;
+                height: 180px;
+
+                .date {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: url(../img/event-02.jpg) center / cover;
+                    width: 200px;
+
+                    .date-content {
+                        background: $black;
+                        color: $white;
+                        width: 50%;
+                        height: 80px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        h6 {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+                .adress {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    text-align: left;
+                    margin-left: 40px;
+                    margin-bottom: 20px;
+
+                    h3 {
+                        font-weight: 200;
+                        margin-left: 8px;
+                    }
+                    p {
+                        color: $grey;
+                        font-size: 0.9rem;
+                        letter-spacing: 1px;
+                        display: flex;
+                        align-items: center;
+
+                        i {
+                            font-size: 0.7rem;
+                            margin: 0 5px 0 0;
+                        }
+                        i:nth-of-type(2) {
+                           margin-left: 10px;
+                        }
+                    }
+                    h5 {
+                        text-transform: uppercase;
+                        font-size: 0.9rem;
+                        color: gray;
+                        font-weight: 100;
+                    }
+                }
+            }
+            .event-3 {
+                grid-area: ev;
+                margin: 0 auto;
+                background: url(../img/event-03.jpg) center / cover;
+                width: 450px;
+                height: 97%;
+                .adress {
+                    background: $white;
+                    height: 85%;
+                    width: 85%;
+                    margin: 20px auto;
+                    .date { 
+                        background: $black;
+                        width: 20%;
+                        margin: 0 auto;
+                        height: 85px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .date-content {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            color: $white;
+
+                            h6 {
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                    h3 {
+                        margin: 40px 0;
+                        letter-spacing: 1px;
+                        font-size: 1.3rem;
+                        font-weight: 100;
+                        padding-left: 10px;
+                    }
+                    p {
+                        color: $grey;
+                        font-size: 0.9rem;
+                        letter-spacing: 1px;
+                        display: flex;
+                        align-items: center;
+                        padding-left: 50px;
+
+                        i {
+                            font-size: 0.7rem;
+                            margin: 0 5px 0 0;
+                        }
+                        i:nth-of-type(2) {
+                           margin-left: 10px;
+                        }
+                    }
+                    h5 {
+                        text-transform: uppercase;
+                        font-size: 0.9rem;
+                        color: gray;
+                        font-weight: 100;
+                        margin-top: 60px;
+                        margin-bottom: 80px;
+                    }
+                }
+            }
+        }
+    }
+}

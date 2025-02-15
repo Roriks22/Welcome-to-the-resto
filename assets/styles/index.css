@@ -381,4 +381,274 @@ header .header-text div h6 {
   font-size: 1rem;
   letter-spacing: 1px;
   margin: 0 auto;
+}
+
+.section-4 .events-container h2 {
+  font-family: Allura, cursive;
+  color: rgb(166, 114, 69);
+  font-size: 2.5rem;
+}
+.section-4 .events-container h4 {
+  text-transform: uppercase;
+  color: #eee;
+  font-family: Poppins, serif;
+  font-size: 1.5rem;
+  margin-top: -10px;
+}
+.section-4 .events-container img {
+  margin: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section-4 .events-container .event-grid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 1fr 1fr;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 20px;
+  grid-template-areas: "evl1 ev" "evl2 ev";
+}
+.section-4 .events-container .event-grid .event-1 {
+  background: #eee;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-area: evl1;
+  height: 180px;
+}
+.section-4 .events-container .event-grid .event-1 .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url(../img/event-01.jpg) center/cover;
+  width: 200px;
+}
+.section-4 .events-container .event-grid .event-1 .date .date-content {
+  background: #21201e;
+  color: #eee;
+  width: 50%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.section-4 .events-container .event-grid .event-1 .date .date-content h6 {
+  font-size: 1.5rem;
+}
+.section-4 .events-container .event-grid .event-1 .adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: left;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.section-4 .events-container .event-grid .event-1 .adress h3 {
+  font-weight: 200;
+  margin-left: 8px;
+}
+.section-4 .events-container .event-grid .event-1 .adress p {
+  color: rgb(182, 182, 182);
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  font-weight: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section-4 .events-container .event-grid .event-1 .adress p i {
+  font-size: 0.7rem;
+  padding: 0 5px 0 0;
+}
+.section-4 .events-container .event-grid .event-1 .adress p i:nth-of-type(2) {
+  margin-left: 10px;
+}
+.section-4 .events-container .event-grid .event-1 .adress h5 {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: gray;
+  font-weight: 100;
+}
+.section-4 .events-container .event-grid .event-2 {
+  background: #eee;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-area: evl2;
+  height: 180px;
+}
+.section-4 .events-container .event-grid .event-2 .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url(../img/event-02.jpg) center/cover;
+  width: 200px;
+}
+.section-4 .events-container .event-grid .event-2 .date .date-content {
+  background: #21201e;
+  color: #eee;
+  width: 50%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.section-4 .events-container .event-grid .event-2 .date .date-content h6 {
+  font-size: 1.5rem;
+}
+.section-4 .events-container .event-grid .event-2 .adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: left;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.section-4 .events-container .event-grid .event-2 .adress h3 {
+  font-weight: 200;
+  margin-left: 8px;
+}
+.section-4 .events-container .event-grid .event-2 .adress p {
+  color: rgb(182, 182, 182);
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section-4 .events-container .event-grid .event-2 .adress p i {
+  font-size: 0.7rem;
+  margin: 0 5px 0 0;
+}
+.section-4 .events-container .event-grid .event-2 .adress p i:nth-of-type(2) {
+  margin-left: 10px;
+}
+.section-4 .events-container .event-grid .event-2 .adress h5 {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: gray;
+  font-weight: 100;
+}
+.section-4 .events-container .event-grid .event-3 {
+  grid-area: ev;
+  margin: 0 auto;
+  background: url(../img/event-03.jpg) center/cover;
+  width: 450px;
+  height: 97%;
+}
+.section-4 .events-container .event-grid .event-3 .adress {
+  background: #eee;
+  height: 85%;
+  width: 85%;
+  margin: 20px auto;
+}
+.section-4 .events-container .event-grid .event-3 .adress .date {
+  background: #21201e;
+  width: 20%;
+  margin: 0 auto;
+  height: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section-4 .events-container .event-grid .event-3 .adress .date .date-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #eee;
+}
+.section-4 .events-container .event-grid .event-3 .adress .date .date-content h6 {
+  font-size: 1.5rem;
+}
+.section-4 .events-container .event-grid .event-3 .adress h3 {
+  margin: 40px 0;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  font-weight: 100;
+  padding-left: 10px;
+}
+.section-4 .events-container .event-grid .event-3 .adress p {
+  color: rgb(182, 182, 182);
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 50px;
+}
+.section-4 .events-container .event-grid .event-3 .adress p i {
+  font-size: 0.7rem;
+  margin: 0 5px 0 0;
+}
+.section-4 .events-container .event-grid .event-3 .adress p i:nth-of-type(2) {
+  margin-left: 10px;
+}
+.section-4 .events-container .event-grid .event-3 .adress h5 {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: gray;
+  font-weight: 100;
+  margin-top: 60px;
+  margin-bottom: 80px;
 }/*# sourceMappingURL=index.css.map */
