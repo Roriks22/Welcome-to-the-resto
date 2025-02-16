@@ -19,6 +19,13 @@
         position: relative;
         z-index: 1000;
 
+        @media screen and (max-width: 680px) {
+            height: 500px;
+        }
+        @media screen and (max-width: 450px) {
+            height: 700px;
+        }
+
         &::after {
             content: "";
             position: absolute;

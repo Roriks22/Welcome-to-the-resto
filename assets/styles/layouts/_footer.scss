@@ -3,6 +3,10 @@ footer {
     width: 100%;
     margin: 0 auto;
     padding-top: 100px;
+
+    @media screen and (max-width: 760px) {
+        background: $black;
+    }
     .footer-content {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -10,7 +14,13 @@ footer {
         .left-part {
             text-align: left;
             padding-left: 450px;
-
+            
+            @media screen and (max-width: 1150px) {
+                padding-left: 10px;
+            }
+            @media screen and (max-width: 760px) {
+                display: none;
+            }
             h2 {
                 font-family: Allura, cursive;
                 color: $color1;
@@ -29,6 +39,10 @@ footer {
             text-align: left;
             margin-left: 50px;
 
+            @media screen and (max-width: 760px) {
+                width: 100%;
+            }
+
             .newsletter {
                 padding-bottom: 50px;
 
@@ -45,11 +59,22 @@ footer {
                     background: transparent;
                     height: 30px;
                     padding-left: 10px;
+
+                    @media screen and (max-width: 1150px) {
+                        width: 40%;
+                    }
+                    @media screen and (max-width: 760px) {
+                        width: auto;
+                    }
                 }
             }
             .follox-us {
                 display: flex;
                 margin-top: 25px;
+
+                @media screen and (max-width: 450px) {
+                    width: 100%;
+                }
 
                 h3 {
                     color: $white;
@@ -63,10 +88,19 @@ footer {
                     margin-left: 20px;
                     gap: 40px;
                     align-items: center;
+
+                    @media screen and (max-width: 760px) {
+                        gap: 10px;
+                        margin-left: 10px;
+                    }
                     
                     li {
                         color: $grey;
                         font-size: 0.7rem;
+
+                        @media screen and (max-width: 600px) {
+                            font-size: 0.6rem;
+                        }
                     }
                 }
             }

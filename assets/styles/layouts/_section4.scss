@@ -1,4 +1,7 @@
 .section-4 {
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
     .events-container {
         h2 {
             font-family: Allura, cursive;
@@ -26,6 +29,10 @@
             grid-template-areas: 
             "evl1 ev"
             "evl2 ev";
+
+            @media screen and (max-width: 950px) {
+                display: block;
+            }
 
             .event-1 {
                 background: $white;
@@ -160,6 +167,10 @@
                 background: url(../img/event-03.jpg) center / cover;
                 width: 450px;
                 height: 97%;
+
+                @media screen and (max-width: 950px) {
+                    width: 100%;
+                }
                 .adress {
                     background: $white;
                     height: 85%;

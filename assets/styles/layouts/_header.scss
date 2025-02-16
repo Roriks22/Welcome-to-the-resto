@@ -25,6 +25,10 @@ header {
             font-size: 0.7rem;
             padding: 0 30px;
 
+            @media screen and (max-width: 700px) {
+                display: none;
+            }
+
             li {
                 cursor: pointer;
             }
@@ -32,6 +36,12 @@ header {
         .nav-icons {
             @include alignChildren(space-around);
             font-size: 0.8rem;
+
+            @media screen and (max-width: 700px) {
+                justify-content: space-evenly;
+                margin-left: 200px;
+                font-size: 0.7rem;
+            }
 
             i {
                 cursor: pointer;
