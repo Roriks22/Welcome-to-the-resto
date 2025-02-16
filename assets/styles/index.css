@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Allura";
   src: url(../fonts/Allura-Regular.ttf);
@@ -688,11 +689,21 @@ header .header-text div h6 {
           transform: translate(-30px);
 }
 .section-5 .quote-container .text-container p {
+  position: relative;
   padding: 70px 0 25px 0;
   line-height: 30px;
   text-align: center;
   font-weight: 100;
   margin: 0 80px;
+}
+.section-5 .quote-container .text-container p::before {
+  content: "❝";
+}
+.section-5 .quote-container .text-container p::after {
+  content: "❞";
+}
+.section-5 .quote-container .text-container p::before, .section-5 .quote-container .text-container p::after {
+  font-size: 1.5rem;
 }
 .section-5 .quote-container h2 {
   font-weight: 100;

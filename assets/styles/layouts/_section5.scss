@@ -35,11 +35,23 @@
 
         .text-container {
             p {
+                position: relative;
                 padding: 70px 0 25px 0;
                 line-height: 30px;
                 text-align: center;
                 font-weight: 100;
                 margin: 0 80px;
+
+                &::before {
+                    content: "❝";
+                }
+                &::after {
+                    content: "❞";
+                }
+                &::before,
+                &::after {
+                    font-size: 1.5rem;
+                }
             }
         }
         h2 {
