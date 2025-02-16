@@ -711,4 +711,79 @@ header .header-text div h6 {
 }
 .section-5 .quote-container P:nth-child(3) {
   color: rgb(166, 114, 69);
+}
+
+footer {
+  background: url(../img/bg-footer.jpg) center/cover;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+footer .footer-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+footer .footer-content .left-part {
+  text-align: left;
+  padding-left: 450px;
+}
+footer .footer-content .left-part h2 {
+  font-family: Allura, cursive;
+  color: rgb(166, 114, 69);
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+footer .footer-content .left-part P {
+  padding: 10px 50px 60px 0;
+  color: #eee;
+  line-height: 30px;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+footer .footer-content .right-part {
+  text-align: left;
+  margin-left: 50px;
+}
+footer .footer-content .right-part .newsletter {
+  padding-bottom: 50px;
+}
+footer .footer-content .right-part .newsletter h3 {
+  text-transform: uppercase;
+  color: #eee;
+  font-size: 0.9rem;
+  font-weight: 100;
+  padding-bottom: 15px;
+}
+footer .footer-content .right-part .newsletter input {
+  width: 25%;
+  border: 1px solid rgba(128, 128, 128, 0.299);
+  background: transparent;
+  height: 30px;
+  padding-left: 10px;
+}
+footer .footer-content .right-part .follox-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
+}
+footer .footer-content .right-part .follox-us h3 {
+  color: #eee;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+footer .footer-content .right-part .follox-us ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+  gap: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footer-content .right-part .follox-us ul li {
+  color: rgb(182, 182, 182);
+  font-size: 0.7rem;
 }/*# sourceMappingURL=index.css.map */
